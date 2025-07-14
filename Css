@@ -1,1 +1,75 @@
+* {
+    box-sizing: border-box;
+}
 
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #4CAF50; /* Green background */
+    color: white; /* White text */
+    padding: 60px 0; /* Top and bottom padding */
+    text-align: center; /* Centered text */
+}
+
+header h1 {
+    margin: 0;
+}
+
+.cta-button {
+    background: white; /* White button */
+    color: #4CAF50; /* Green text */
+    padding: 15px 30px; /* Button padding */
+    text-decoration: none; /* No underline */
+    border-radius: 5px; /* Rounded corners */
+    font-weight: bold; /* Bold text */
+}
+
+#features {
+    padding: 20px 0;
+    text-align: center;
+}
+
+.feature {
+    margin: 20px 0;
+}
+
+#signup {
+    background: #f4f4f4; /* Light gray background */
+    padding: 20px 0;
+    text-align: center;
+}
+
+#signup form {
+    display: inline-block; /* Center the form */
+}
+
+#signup input {
+    padding: 10px;
+    margin: 5px;
+    width: 200px; /* Fixed width for inputs */
+}
+
+#signup button {
+    padding: 10px 20px;
+    background: #4CAF50; /* Green button */
+    color: white; /* White text */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+}
+
+footer {
+    background: #333; /* Dark background */
+    color: white; /* White text */
+    text-align: center;
+    padding: 10px 0;
+}
